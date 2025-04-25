@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>usando links</h1>
+    <h2>usando links externos</h2>
+    <p>Voce pode acessar o meu <a href="https://github.com/dev-jakson" target="_blank" rel="external">repositorio publico no GitHub</a></p> <!--Sempre que quiser que a pagina abra em outra aba usar o (target="_blank"rel="external") o rel="external" é para informar ao mecanismo de busca que e uma pagina externa -->
+    <p>Voce tambem pode acessar meu <a href="https://youtube.com" target="_blank" rel="external">canal no Youtube</a></p>
+    <h2>usando links internos</h2>
+    <p>Esta é a primeira pagina do meu site, se voce quiser pode acessar a minha <a href="pag002.html" rel="next">Segunda pagina</a></p><!--o rel="next" é para informar ao mecanismo de busca que é a proxima pagina-->
+    <p>Voce tambem pode acessar nossa <a href="noticias/pag003.html" target="_self" rel="next">pagina de noticias</a></p>
+    <h2>Links para download</h2>
+    <ul>
+        <li><a href="Livro/teste.pdf" download="teste.pdf"type="application/pdf">Baixar livro em PDF</a></li>
+        <li><a href="Livro/teste.rar" download="teste.rar" type="application/zip">Livro compactado ZIP</a></li>
+        <p>para saber qual a midia type de cada arquivo pode acessar <a href="https://www.iana.org/assignments/media-types/media-types.xhtml"target="_blank"rel="external">o site da iana media type</a></p>
+    </ul>
+</body>
+</html>

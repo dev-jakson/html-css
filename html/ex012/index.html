@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="fiveicon/icommeo.ico" type="image/x-icon">
+    <title>Trabalhando com videos</title>
+    <style>
+        body {
+            background-color: rgb(183, 231, 215);
+        }
+        h1 {
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inserindo Videos com Hospedagem Local e Externa</h1>
+    <hr>
+    <h2>Oque é Hospedagem local?</h2>
+    <p>Hospedagem local HTML é o processo de hospedar um site ou aplicação web no computador pessoal, permitindo que seja criado e testado sem internet. Isso vale para arquivos do site como: imagens, video audios etc..</p>
+
+    <video width="560px" controls poster="imagens/alce-no-gelo.jpg">
+        <source src="midia/Video.ogv" type="Video/ogv">
+        <source src="midia/Video.m4v" type="video/m4v">
+        <source src="midia/Video.mkv" type="video/mkv">
+        <source src="midia/Video.mp4" type="video/mp4">
+        <p>Seu navegador nao suporta esse tipo de midia</p>
+    </video>
+
+    <h2>Oque é Hospedagem externa?</h2>
+    <p>Hospedagem externa HTML é um serviço que armazena os arquivos de um site, incluindo os códigos HTML, em um servidor na nuvem. Isso permite que o site seja acessado na internet. Isso vale para arquivos do site como: imagens, videos, audios etc...</p>
+
+    <!--Para inserindo video atravez do link, so copiar do youtube-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=3Wp_cTkw7bT-r7_2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+</body>
+</html>
