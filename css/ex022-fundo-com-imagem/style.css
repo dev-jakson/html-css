@@ -1,0 +1,50 @@
+
+        body {
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+        h1 {
+            text-align: center;
+            background-color: black;
+            color: aliceblue;
+        }
+        p {
+            background-color: silver;
+            text-align: center;
+        }
+        div.quadrado {
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+            margin: 2px;
+        }
+        div#q1 {
+            background-color: skyblue;
+        }
+    
+        div#q2 {
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+        div#q3 {
+            background-image: url('imagens/pattern003.png');
+        }
+        div.retangulo {
+            border: 3px solid black;
+            border-radius: 10px;
+            width: 918px;
+            height: 150px;
+            display: flex;
+            margin: 5px;
+        }
+
+        div#r1 {
+            background-image: linear-gradient(to right, yellow, green);
+        }
+        div#r2 {
+            background-image: linear-gradient(to right, yellow, blue);
+        }
+        div#r3 {
+            background-image: linear-gradient(to right, yellow, black);
+        }
